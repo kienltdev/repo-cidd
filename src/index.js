@@ -9,6 +9,7 @@ app.use(express.urlencoded({extended: false}));
 const cors = require("cors");
 app.use(cors());
 
+
 app.use("/api", require("./routes"));
 
 const PORT = process.env.PORT || 8000;
