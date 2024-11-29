@@ -30,7 +30,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: kienltdev/ci-cd:staging2
+          tags: kienltdev/ci-cd:staging3
 
 
   pull-and-up:
